@@ -1,35 +1,36 @@
-# Chi Sun College App
+# RC Lee Hall App
+#### Built by RC Tech Club
 
-This is the repository for the web and mobile apps of Chi Sun College of the University of Hong Kong. They are developed by the Chi Sun Turing Club to provide a one-stop platform for Chi Sun students to gain all information relevant to the college.
+This is the repository for the web and mobile apps of RC Lee Hall of the University of Hong Kong. They are developed by the RC Tech Club to provide a one-stop platform for RC Lee students to gain all information relevant to the hall.
 
 ## How to setup development environment
 
 ## General
 
 1.  Install [Node.js](https://nodejs.org/en/download/) LTS
-2.  Install [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+2.  Install [Npm](https://www.npmjs.com/get-npm)
 
 ## Web App
 
 1.  `cd web`
-2.  `yarn install`
+2.  `npm install`
 
 ## Server
 
 1.  `cd server`
-2.  `yarn install`
+2.  `npm install`
 
 ## Mobile App
 
 1.  `cd mobile`
-2.  `yarn install`
+2.  `npm install`
 
 ## How to run
 
 ### Web App
 
 1.  `cd web`
-2.  `yarn start`
+2.  `npm start`
 3.  Visit web app at [http://localhost:3000/](http://localhost:3000/)
 
 ### Mobile App
@@ -37,7 +38,7 @@ This is the repository for the web and mobile apps of Chi Sun College of the Uni
 #### 1. Start Server
 
 1.  Go to server directory `cd server`
-2.  Run server `yarn dev`
+2.  Run server `npm start dev`
 3.  Open GraphQL Playground at [http://localhost:4000/graphql](http://localhost:4000/graphql)
 
 #### 2. Start App
@@ -51,10 +52,10 @@ This is the repository for the web and mobile apps of Chi Sun College of the Uni
 
 ### Server
 
-1.  `git subtree push --prefix server/ https://git.heroku.com/quiet-sea-90084.git master`
+1.  `git subtree push --prefix server/ [backend link] master`
 
 ### Web App
 
 1.  Ensure you are in master branch by `git branch`
-2.  Deploy by `yarn deploy`
-3.  Visit web app at [http://hkuturingclub.github.io/ChiSunApp](http://hkuturingclub.github.io/ChiSunApp)
+2.  Deploy by `npm deploy`
+3.  Visit web app at [link]()
