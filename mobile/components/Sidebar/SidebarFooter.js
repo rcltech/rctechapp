@@ -12,11 +12,12 @@ const styles = {
       padding: 5
     },
     iconContainer:{
-        color: theme.brandPrimary
+      color: theme.brandPrimary
     },
     footerText: {
-        fontSize: 10,
-        color: "grey",
+      fontSize: 10,
+      color: 'grey',
+      textAlign: 'center'
     },
     socialContainer: {
       flexDirection: 'row',
@@ -24,9 +25,8 @@ const styles = {
       padding: 5
     },
     footerTextContainer: {
-      flexDirection: "row",
-      justifyContent: 'space-evenly',
-      color: "grey",
+      flexDirection: 'row',
+      justifyContent: 'center',
       padding: 5,
       paddingTop: 10
     },
@@ -47,10 +47,10 @@ const SidebarFooter = () => (
           <Icon style={styles.iconContainer} type="Entypo" name="instagram-with-circle"/>
         </TouchableOpacity>
       </View>
-      <TouchableOpacity style={styles.footerTextContainer} onPress={() => openLink('mailto:turingclub.hku@gmail.com')}>
-        <Text style={styles.footerText}>Developed by Turing Club</Text>
-        <Text style={styles.footerText}> | </Text>
-        <Text style={{...styles.footerText, textDecorationLine:'underline'}}>
+      <TouchableOpacity style={styles.footerTextContainer} onPress={() => openLink('mailto:contact@rctech.club')}>
+        <Text style={{...styles.footerText, flex: 6}}>Developed by RC Tech in collaboration with Chi Sun Turing Club</Text>
+        <Text style={{...styles.footerText, flex: 1}}> | </Text>
+        <Text style={{...styles.footerText, flex: 2, textDecorationLine:'underline'}}>
           Give Feedback
         </Text>
       </TouchableOpacity>
